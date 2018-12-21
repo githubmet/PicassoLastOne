@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">PicassoLastOne</string>
+    <string name="text">Text</string>
+    <string name="ok">Ok</string>
+    <string name="error">Error</string>
+
+    <string name="add">Add</string>
+    <string name="clear">Clear</string>
+    <string name="darken">Darken</string>
+
+    <string name="lighten">LIGHTEN</string>
+    <string name="dst">DST</string>
+    <string name="dst_atop">DST_ATOP</string>
+
+    <string name="dst_in">Destination In</string>
+    <string name="dst_out">Destination Out</string>
+    <string name="dst_over">Destination Over</string>
+
+    <string name="src_in">Source In</string>
+    <string name="src_out">Source Out</string>
+    <string name="src_over">Source Over</string>
+
+    <string name="multiply">Multiply</string>
+    <string name="overlay">Overlay</string>
+    <string name="screen">Screen</string>
+
+    <string name="src">SRC</string>
+    <string name="src_atop">SRC ATOP</string>
+    <string name="xor">XOR</string>
+</resources>

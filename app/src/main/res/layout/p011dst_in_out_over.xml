@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/imageViewLeftP011"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/imageViewRightP011"/>
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dst_in"
+        android:onClick="onClickMtdP011"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250px"
+        android:id="@+id/relativeLayoutP011"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dst_out"
+        android:onClick="onClickMtd2P011"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250px"
+        android:id="@+id/relativeLayout2P011"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dst_over"
+        android:onClick="onClickMtd3P011"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250px"
+        android:id="@+id/relativeLayout3P011"/>
+</LinearLayout>

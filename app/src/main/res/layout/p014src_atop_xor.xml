@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/imageViewLeftP014"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/imageViewRightP014"/>
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/src"
+        android:onClick="onClickMtdP014"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250px"
+        android:id="@+id/relativeLayoutP014"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/src_atop"
+        android:onClick="onClickMtd2P014"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250px"
+        android:id="@+id/relativeLayout2P014"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/xor"
+        android:onClick="onClickMtd3P014"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250px"
+        android:id="@+id/relativeLayout3P014"/>
+</LinearLayout>
